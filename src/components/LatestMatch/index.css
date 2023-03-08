@@ -1,0 +1,64 @@
+.latest-head {
+  font-family: Bree Serif;
+  font-size: 21px;
+  color: #ffffff;
+}
+.latest-match-cont {
+  background-color: #0f172a;
+  border: 0px solid;
+  border-radius: 10px;
+  width: 68%;
+  padding: 20px;
+}
+.compete-details-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.compete-team-name {
+  font-family: Bree Serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+.date {
+  font-family: Bree Serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+.venue {
+  font-family: Bree Serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+.result {
+  font-family: Bree Serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+.details-text {
+  font-family: Bree Serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+.details-text-team {
+  font-family: Bree Serif;
+  font-size: 10px;
+  color: #ffffff;
+}
+.hr-line {
+  color: #ffffff;
+}
+.team-logo-img {
+  width: 22%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.match-details-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+  margin-top: 20px;
+}

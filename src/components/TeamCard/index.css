@@ -1,0 +1,40 @@
+.teams-list-cont {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #ffffff33;
+  padding: 20px;
+  height: 160px;
+  width: 328px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.link-styles {
+  background-color: transparent;
+  outline: none;
+}
+.team-img {
+  width: 30%;
+}
+.team-name {
+  font-family: Bree Serif;
+  font-size: 28px;
+  color: #ffffff;
+  margin-left: 30px;
+}
+@media screen and (max-width: 992px) {
+  .team-name {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .teams-list-cont {
+    flex-shrink: 1;
+    padding: 20px;
+    height: 90px;
+    width: 180px;
+  }
+  .team-name {
+    font-size: 14px;
+  }
+}

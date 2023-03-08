@@ -1,0 +1,61 @@
+.card-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #0f172a;
+  border: 0px solid;
+  border-radius: 10px;
+  width: 42%;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  list-style-type: none;
+}
+.compete-team-logo-img {
+  height: 120px;
+  width: 120px;
+}
+.team-name {
+  font-family: Bree Serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.won-by {
+  font-family: Bree Serif;
+  font-size: 12px;
+  color: #ffffff;
+}
+.result {
+  font-family: Bree Serif;
+  font-size: 16px;
+}
+.red {
+  color: #e31a1a;
+}
+.green {
+  color: #18ed66;
+}
+
+@media screen and (max-width: 792px) {
+  .card-cont {
+    margin-right: 20px;
+    width: 100%;
+  }
+  .compete-team-logo-img {
+    height: 60px;
+    width: 60px;
+  }
+  .team-name {
+    font-size: 16px;
+  }
+  .won-by {
+    font-size: 10px;
+  }
+  .result {
+    font-size: 12px;
+  }
+}
